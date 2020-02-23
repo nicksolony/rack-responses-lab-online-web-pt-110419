@@ -5,7 +5,7 @@ class Application
     resp = Rack::Response.new
     binding.pry
     if Time.now.to_i >12
-      resp.write "You Win"
+      resp.write "Good Afternoon!"
     else
       resp.write "You Lose"
     end
